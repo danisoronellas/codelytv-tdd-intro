@@ -189,3 +189,4 @@ fabric.properties
 ###< symfony/phpunit-bridge ###
 
 .idea
+coverage
