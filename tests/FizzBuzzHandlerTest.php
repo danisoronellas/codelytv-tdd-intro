@@ -12,7 +12,7 @@ use PHPUnit\Framework\TestCase;
 class FizzBuzzHandlerTest extends TestCase
 {
     #[Test]
-    public function GivenAnyNumberThenShouldReturnTheSameNumber(): void
+    public function given_any_number_then_should_return_the_same_number(): void
     {
         $number = 1;
         $handler = new FizzBuzzHandler();
@@ -22,7 +22,7 @@ class FizzBuzzHandlerTest extends TestCase
     }
 
     #[Test]
-    public function GivenAnyNumberMultipleByThreeThenShouldReturnFizz(): void
+    public function given_any_number_multiple_by_three_then_should_return_fizz(): void
     {
         $number = 3;
         $handler = new FizzBuzzHandler();
@@ -31,7 +31,7 @@ class FizzBuzzHandlerTest extends TestCase
     }
 
     #[Test]
-    public function GivenAnyNumberMultipleByFiveThenShouldReturnBuzz(): void
+    public function given_any_number_multiple_by_five_then_should_return_buzz(): void
     {
         $number = 5;
         $handler = new FizzBuzzHandler();
@@ -40,7 +40,7 @@ class FizzBuzzHandlerTest extends TestCase
     }
 
     #[Test]
-    public function GivenAnyNumberMultipleByThreeAndFiveThenShouldReturnFizzBuzz(): void
+    public function given_any_number_multiple_by_three_and_five_then_should_return_fizz_buzz(): void
     {
         $number = 15;
         $handler = new FizzBuzzHandler();
